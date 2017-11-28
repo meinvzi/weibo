@@ -1,0 +1,178 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+  color: #333; }
+
+html {
+  font-size: 625%; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 黑体; }
+
+header, main h1, main h1 a:first-child, main h3 a, footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  width: 100%;
+  height: 0.5rem;
+  justify-content: space-between;
+  padding: 0 .15rem; }
+  header a {
+    color: #FE8302; }
+  header span {
+    height: 100%; }
+    header span a {
+      display: inline-block;
+      color: #919191;
+      font-size: .16rem;
+      width: 0.6rem;
+      height: 100%;
+      text-align: center;
+      line-height: .5rem; }
+      header span a:hover, header span a:nth-child(1) {
+        border-bottom: solid .02rem #FE8302;
+        color: #666; }
+
+section {
+  background: #D6D6D6;
+  flex: 1;
+  overflow-y: scroll; }
+  section > h1 {
+    padding: .1rem; }
+    section > h1 span {
+      display: block;
+      width: 100%;
+      height: 0.3rem;
+      background: #fff;
+      border-radius: .05rem;
+      padding-left: .1rem;
+      line-height: .3rem;
+      color: #999; }
+      section > h1 span input {
+        width: 90%;
+        height: 100%;
+        border: 0;
+        outline: 0;
+        margin-left: .1rem; }
+        section > h1 span input::-webkit-input-placeholder {
+          color: #999; }
+  section ul {
+    background: #fff;
+    padding: 0 .1rem;
+    border-bottom: solid 1px #E6E6E6; }
+    section ul li {
+      width: 100%;
+      height: 0.5rem;
+      display: flex;
+      padding: .1rem 0; }
+      section ul li:first-child {
+        border-bottom: solid 1px #E6E6E6; }
+      section ul li a {
+        flex: 1;
+        padding-left: .14rem;
+        display: flex;
+        align-items: center;
+        color: #333; }
+        section ul li a:nth-child(1) {
+          border-right: solid 1px #E6E6E6; }
+
+main {
+  background: #fff;
+  margin-top: .15rem; }
+  main h1 {
+    width: 100%;
+    height: 0.8rem;
+    font-weight: normal;
+    justify-content: space-between;
+    padding: 0 .12rem; }
+    main h1 a:first-child {
+      justify-content: space-between; }
+      main h1 a:first-child img {
+        width: 0.5rem;
+        height: 0.5rem; }
+      main h1 a:first-child span {
+        display: flex;
+        flex-direction: column;
+        padding-left: .12rem;
+        line-height: 1.5; }
+        main h1 a:first-child span time {
+          color: #999;
+          font-size: .12rem; }
+    main h1 a:last-child {
+      width: 0.7rem;
+      height: 0.3rem;
+      border: solid 1px #ccc;
+      border-radius: .03rem;
+      color: #F48114;
+      text-align: center;
+      line-height: .28rem; }
+  main p {
+    font-size: .16rem;
+    color: #000;
+    padding: 0 .12rem; }
+    main p a {
+      color: #5077A0; }
+  main h2 {
+    margin: .15rem 0;
+    padding: 0 .12rem; }
+    main h2 img {
+      width: 40%;
+      height: auto; }
+  main h3 {
+    font-weight: normal;
+    width: 100%;
+    height: 0.4rem;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    display: flex;
+    padding: .05rem 0; }
+    main h3 a {
+      flex: 1;
+      color: #999;
+      border-right: solid 1px #ccc; }
+      main h3 a:last-child {
+        border: 0; }
+      main h3 a span {
+        margin-left: .1rem; }
+
+footer {
+  width: 100%;
+  height: 0.5rem;
+  border-top: solid 1px #eee;
+  display: flex; }
+  footer a {
+    flex: 1;
+    flex-direction: column;
+    color: #666;
+    font-size: .24rem !important; }
+    footer a b {
+      font-weight: normal;
+      font-size: .12rem; }
+    footer a span {
+      width: 0.5rem;
+      height: 0.4rem;
+      background: #FE8100;
+      border-radius: .04rem;
+      color: #fff;
+      text-align: center;
+      line-height: .4rem;
+      font-size: .5rem; }
+
+/*# sourceMappingURL=style.css.map */
